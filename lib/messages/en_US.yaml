@@ -42,6 +42,8 @@ start_date_not_selected_error: Please select a start date.
 end_date_not_selected_error: Please select end date.
 start_date_greater_error: The start date is greater than the end date!
 english: English
+hindi: Hindi
+bengali: Bengali
 german: German
 russian: Russian
 french: French

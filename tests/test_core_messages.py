@@ -8,6 +8,8 @@ class TestCoreMessagesModules(unittest.TestCase):
         language_list = load_messages().languages_list
         languages = [
             "es_ES",
+            "hi_IN",
+            'bn_IN',
             "ru_RU",
             "en_US",
             "fr_FR",
@@ -18,6 +20,8 @@ class TestCoreMessagesModules(unittest.TestCase):
     def test_language_code(self):
         language_list = load_messages().languages_list
         self.assertIn("en_US", language_list)
+        self.assertIn("hi_IN", language_list)
+        self.assertIn("bn_IN", language_list)
         self.assertIn("es_ES", language_list)
         self.assertIn("ru_RU", language_list)
         self.assertIn("fr_FR", language_list)

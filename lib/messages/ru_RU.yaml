@@ -42,6 +42,8 @@ start_date_not_selected_error: Пожалуйста, выберите дату �
 end_date_not_selected_error: Пожалуйста, выберите дату окончания
 start_date_greater_error: Дата начала больше даты окончания!
 english: английский - English
+hindi: хинди - Hindi
+bengali: бенгальский - Bengali
 german: Немецкий - German
 russian: русский - Russian
 french: Французский - French

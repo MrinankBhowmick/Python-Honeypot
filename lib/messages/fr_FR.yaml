@@ -42,6 +42,8 @@ start_date_not_selected_error: Veuillez sélectionner une date de début.
 end_date_not_selected_error: Veuillez sélectionner la date de fin.
 start_date_greater_error: La date de début est postérieure à la date de fin !
 english: Anglais - English
+hindi: Hindi - Hindi
+bengali: Bengali - Bengali
 german: Allemand - German
 russian: russe - Russian
 french: français - French

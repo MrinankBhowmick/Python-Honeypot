@@ -1,0 +1,87 @@
+---
+explorer: লগ এক্সপ্লোরার
+dashboard: ড্যাশবোর্ড
+event_type: ইভেন্টের ধরণ
+module_name: মডিউল নাম
+start_date: শুরুর তারিখ
+end_date: শেষ তারিখ
+search: অনুসন্ধান করুন
+welcome: 'স্বাগতম '
+ui: ওয়েবইউআই
+top_ten_ip_dests-honeypot: শীর্ষ দশ Ip_dest - হানিপট
+top_ten_ip_dests-network: শীর্ষ দশ Ip_dest - নেটওয়ার্ক
+top_ten_port_dests-honeypot: শীর্ষ দশ Port_dest - হানিপট
+top_ten_port_dests-network: শীর্ষ দশ Port_dest - নেটওয়ার্ক
+top_ten_ips-honeypot: শীর্ষ দশ আইপি - হোনিপট
+top_ten_ips-network: শীর্ষ দশ আইপি -নেটওয়ার্ক
+top_ten_ports-honeypot: শীর্ষ দশ পোর্ট - হোনিপট
+top_ten_ports-network: শীর্ষ দশ পোর্ট - নেটওয়ার্ক
+total_events: মোট ঘটনা
+total_honeypot_events: মোট হানিপট ঘটনা
+total_network_events: মোট নেটওয়ার্ক ইভেন্টস
+total_credential_events: মোট নির্ভরযোগ্য ঘটনা
+total_file_events: মোট ফাইল ঘটনা
+total_data_events: মোট তথ্য ঘটনা
+total_pcap_events: মোট পিসিএপি ঘটনা
+all_events: সব প্রোগ্রাম
+honeypot_events: হানিপট ঘটনা
+network_events: নেটওয়ার্ক ইভেন্টস
+credential_events: নির্ভরযোগ্য বিকাশ
+file_events: ফাইল ঘটনা
+data_events: তথ্য ঘটনা
+pcap_events: PCAP ঘটনা
+graph_info: গত সপ্তাহের ইভেন্টস গ্রাফ (আপডেট 30 সেকেন্ডে)
+file_change_events: ফাইল পরিবর্তন ঘটনা
+pcap_archive_files: PCAP আর্কাইভ ফাইল
+choose: নির্বাচন...
+loading: এটা বোঝাই করা হচ্ছে...
+loading_info: লাইভ গ্রাফ লোড হচ্ছে, কয়েক সেকেন্ড অপেক্ষা করুন!
+event_type_error: একটি ইভেন্ট টাইপ নির্বাচন করুন
+date_not_selected_error: একটি শুরু তারিখ এবং মেয়াদ শেষ হওয়ার তারিখ নির্বাচন করুন।
+start_date_not_selected_error: একটি শুরু তারিখ নির্বাচন করুন।
+end_date_not_selected_error: মেয়াদ শেষ হওয়ার তারিখ নির্বাচন করুন।
+start_date_greater_error: শুরু তারিখ মেয়াদ শেষ হওয়ার তারিখের চেয়ে বেশি!
+english: ইংরেজি - English
+hindi: হিন্দি - Hindi
+bengali: বাংলা - Bengali
+german: জার্মান - German
+russian: রাশিয়ান - Russian
+french: ফরাসি - French
+spanish: স্প্যানিশ - Spanish
+choose_language: ভাষা নির্বাচন করুন - Choose Language
+no_records_present_message: কোন রেকর্ড দেওয়া অনুরোধের জন্য উপস্থিত
+script_must_run_as_root: স্ক্রিপ্টটি রুট হিসাবে চালানো উচিত!
+elasticsearch_not_found: Elastics পৃষ্ঠ সংযুক্ত করা যাবে না
+cannot_communicate_with_docker: Drokar সঙ্গে যোগাযোগ করতে পারবেন না, অনুগ্রহ করে ইনস্টল এবং শুরু এবং শুরু!
+install_tools: প্রথমে প্রয়োজনীয় সরঞ্জাম ইনস্টল করুন!
+interrupt_application: অ্যাপ্লিকেশন ব্যাহত কারণ নেটওয়ার্ক ক্যাপচার প্রক্রিয়া জীবিত হয় না!
+interrupted_by_user: ব্যবহারকারী দ্বারা ব্যাহত, পাত্রে প্রতিরোধ এবং পাত্রে এবং ইমেজ অপসারণ করার জন্য অপেক্ষা করুন
+timeout_error: টাইমআউট মান 1 সেকেন্ডেরও কম হতে পারে না!
+no_module_selected_error: কোন মডিউল নির্বাচন করা হয় না, অন্তত একটি নির্বাচন করুন!
+all_modules_excluded_error: আপনি সব মডিউল খুঁজে পেতে পারেন না
+killing_capture_process: নেটওয়ার্ক ক্যাপচার প্রক্রিয়া হত্যা
+finished: শেষ।
+start_message: ওসিপি হোনিপট শুরু হয়েছে ...
+check_for_port_conflicts: বন্দর মধ্যে সংগ্রামের জন্য চেক করুন
+submitting_events: ডাটাবেস নতুন ঘটনা জমা দিন
+network_traffic_capture_start: Network_traffic_capture প্রক্রিয়া শুরু
+creating_ohp_internet: ohp_internet নেটওয়ার্ক
+ohp_internet_network: 'ohp_internet নেটওয়ার্ক তৈরি সাবনেট: {0} গেটওয়ে: {1}'
+creating_ohp_no_internet: ohp_internet নেটওয়ার্ক
+ohp_no_internet_network: 'ohp_internet নেটওয়ার্ক তৈরি সাবনেট: {0} গেটওয়ে {1}'
+removing_image: 'ছবিটি মুছে ফেলা {0}'
+creating_image: 'ছবিটি করুন {0}'
+image_created: 'ছবি {0} তৈরি'
+port_selected: '{1} {0}' এর জন্য নির্বাচিত পোর্ট '
+loading_modules: 'মডিউল লোড হচ্ছে {0}'
+killing_thread: 'হত্যা {0}'
+module_not_available: মডিউল {0} পাওয়া যায় না
+unable_to_get_ip: কন্টেইনার {0} আইপি ঠিকানা গ্রহণ করতে অক্ষম
+network_capture_getting_stored: নেটওয়ার্কটি ক্যাপচারে সংরক্ষণ করা হচ্ছে, {}
+selected_modules_started: 'সব নির্বাচিত মডিউল শুরু হয়েছে: {0}'
+received_honeypot_event: 'पनीप्त इवेटट, ip_dest: {0}, ip_dest:{0}, port_dest:{1}, ip_src:{2}, port_src:{3}, module_name:{4}, machine_name:{5}'
+received_network_event: 'নেটওয়ার্ক ইভেন্ট প্রাপ্ত, ip_dest: ip_dest:{0}, port_dest:{1}, ip_src:{2}, port_src:{3}, machine_name:{4}'
+received_honeypot_credential_event: 'হোনিপট শংসাপত্রের ঘটনাটি পান, ip_dest:{0}, username:{1}, password:{2}, module_name:{3}, machine_name:{4}'
+received_honeypot_file_change_event: 'হোনিপট ফাইল পরিবর্তন ইভেন্টটি পান, file_path:{0}, status:{1}, module_name:{2}, module_name:{3}, machine_name:{3}'
+received_honeypot_data_event: 'হোনিপট ডাটা ইভেন্ট, ip_dest:{0}, module_name:{1}, machine_name:{2}, data:{3}'
+received_network_traffic_file: 'নেটওয়ার্ক ট্রাফিক ফাইলটি পান: {0}, তারিখ: {1}।ফাইল আর্কাইভ এটি ঢোকানো

@@ -1,0 +1,87 @@
+---
+explorer: लॉग एक्सप्लोरर
+dashboard: डैशबोर्ड
+event_type: घटना प्रकार
+module_name: मोड्यूल का नाम
+start_date: आरंभ करने की तिथि
+end_date: समाप्ति तिथि
+search: खोज
+welcome: 'में स्वागत '
+ui: वेब यूआई
+top_ten_ip_dests-honeypot: शीर्ष दस Ip_dest - हनीपॉट
+top_ten_ip_dests-network: शीर्ष दस Ip_dest - नेटवर्क
+top_ten_port_dests-honeypot: शीर्ष दस Port_dest - हनीपॉट
+top_ten_port_dests-network: शीर्ष दस Port_dest - नेटवर्क
+top_ten_ips-honeypot: शीर्ष दस आईपी - हनीपॉट
+top_ten_ips-network: शीर्ष दस आईपी - नेटवर्क
+top_ten_ports-honeypot: शीर्ष दस पोर्ट - हनीपॉट
+top_ten_ports-network: शीर्ष दस पोर्ट - नेटवर्क
+total_events: कुल घटनाएं
+total_honeypot_events: कुल हनीपॉट घटनाक्रम
+total_network_events: कुल नेटवर्क घटनाक्रम
+total_credential_events: कुल विश्वसनीय घटनाक्रम
+total_file_events: कुल फ़ाइल घटनाक्रम
+total_data_events: कुल डेटा घटनाक्रम
+total_pcap_events: कुल पीसीएपी घटनाक्रम
+all_events: सभी कार्यक्रम
+honeypot_events: हनीपॉट घटनाक्रम
+network_events: नेटवर्क घटनाक्रम
+credential_events: विश्वसनीय घटनाक्रम
+file_events: फ़ाइल घटनाक्रम
+data_events: आंकड़ा घटनाक्रम
+pcap_events: पीसीएपी घटनाक्रम
+graph_info: पिछले सप्ताह की घटनाएँ ग्राफ (अद्यतन 30 सेकंड)
+file_change_events: फ़ाइल परिवर्तन घटनाएं
+pcap_archive_files: पीसीएपी पुरालेख फाइलें
+choose: चुनना...
+loading: लोड हो रहा है...
+loading_info: लाइव ग्राफ लोड हो रहा है, कृपया कुछ सेकंड प्रतीक्षा करें!
+event_type_error: कृपया एक घटना प्रकार का चयन करें
+date_not_selected_error: कृपया एक प्रारंभ तिथि और समाप्ति तिथि का चयन करें।
+start_date_not_selected_error: कृपया एक प्रारंभ तिथि का चयन करें।
+end_date_not_selected_error: कृपया समाप्ति तिथि का चयन करें।
+start_date_greater_error: प्रारंभ तिथि समाप्ति तिथि से अधिक है!
+english: अंग्रेज़ी - English
+hindi: हिन्दी - Hindi
+bengali: बंगाली - Bengali
+german: जर्मन - German
+russian: रूसी - Russian
+french: फ्रांसीसी - French
+spanish: स्पेनिश - Spanish
+choose_language: भाषा चुनें - Choose Language
+no_records_present_message: दिए गए अनुरोध के लिए कोई रिकॉर्ड मौजूद नहीं है
+script_must_run_as_root: स्क्रिप्ट को रूट के रूप में चलाया जाना चाहिए!
+elasticsearch_not_found: इलास्टिक्स सरच से कनेक्ट नहीं किया जा सकता
+cannot_communicate_with_docker: डॉकर के साथ संवाद नहीं कर सकता, कृपया डॉकर सेवा स्थापित करें और शुरू करें!
+install_tools: कृपया पहले आवश्यक उपकरण स्थापित करें!
+interrupt_application: एप्लिकेशन को बाधित करना क्योंकि नेटवर्क कैप्चरिंग प्रक्रिया जिंदा नहीं है!
+interrupted_by_user: उपयोगकर्ता द्वारा बाधित, कृपया कंटेनर को रोकने और कंटेनर और छवियों को हटाने के लिए प्रतीक्षा करें
+timeout_error: टाइमआउट मान 1 सेकंड से कम नहीं हो सकता है!
+no_module_selected_error: कोई मॉड्यूल चयनित नहीं है, कृपया कम से कम एक का चयन करें!
+all_modules_excluded_error: आप सभी मॉड्यूल को बाहर नहीं कर सकते
+killing_capture_process: हत्या नेटवर्क कैप्चर प्रक्रिया
+finished: ख़त्म होना।
+start_message: ओडब्ल्यूएएसपी हनीपॉट शुरू हुआ ...
+check_for_port_conflicts: बंदरगाहों में संघर्ष के लिए जाँच
+submitting_events: डेटाबेस में नई घटनाएं सबमिट करना
+network_traffic_capture_start: Network_traffic_capture प्रक्रिया शुरू हुई
+creating_ohp_internet: ohp_internet नेटवर्क बनाना
+ohp_internet_network: 'ohp_internet नेटवर्क ने सबनेट बनाया:{0} गेटवे:{1}'
+creating_ohp_no_internet: ohp_no_internet नेटवर्क बनाना
+ohp_no_internet_network: 'ohp_no_internet नेटवर्क ने सबनेट बनाया:{0} गेटवे{1}'
+removing_image: 'छवि को हटा रहा है {0}'
+creating_image: 'छवि बनाना {0}'
+image_created: 'छवि {0} बनाया गया'
+port_selected: '{1} के लिए चयनित पोर्ट {0}'
+loading_modules: 'मॉड्यूल लोड हो रहा है {0}'
+killing_thread: 'मारना {0}'
+module_not_available: मॉड्यूल {0} उपलब्ध नहीं है
+unable_to_get_ip: कंटेनर {0} आईपी पता प्राप्त करने में असमर्थ
+network_capture_getting_stored: नेटवर्क कैप्चर में संग्रहीत हो रहा है, {}
+selected_modules_started: 'सभी चयनित मॉड्यूल शुरू हुए: {0}'
+received_honeypot_event: 'प्राप्त हनीपॉट इवेंट, ip_dest: {0}, ip_dest:{0}, port_dest:{1}, ip_src:{2}, port_src:{3}, module_name:{4}, machine_name:{5}'
+received_network_event: 'नेटवर्क ईवेंट प्राप्त हुआ, ip_dest: ip_dest:{0}, port_dest:{1}, ip_src:{2}, port_src:{3}, machine_name:{4}'
+received_honeypot_credential_event: 'प्राप्त हनीपॉट क्रेडेंशियल इवेंट, ip_dest:{0}, username:{1}, password:{2}, module_name:{3}, machine_name:{4}'
+received_honeypot_file_change_event: 'प्राप्त हनीपॉट फ़ाइल परिवर्तन घटना, file_path:{0}, status:{1}, module_name:{2}, module_name:{3}, machine_name:{3}'
+received_honeypot_data_event: 'प्राप्त हनीपॉट डेटा इवेंट, ip_dest:{0}, module_name:{1}, machine_name:{2}, data:{3}'
+received_network_traffic_file: 'प्राप्त नेटवर्क ट्रैफ़िक फ़ाइल:{0}, दिनांक:{1}. इसे फाइल आर्काइव में इंसर्ट करना'
